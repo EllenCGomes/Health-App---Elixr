@@ -1,6 +1,5 @@
 _Clique na imagem para expandir_
 
-**Home**
+**Logo**
 
-[![Logo](img/prototype/logo.jpg)](img/prototype/logo.jpg)
-
+[![logo](img/prototype/logo.jpg)](img/prototype/logo.jpg)
