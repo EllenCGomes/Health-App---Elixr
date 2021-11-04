@@ -2,4 +2,4 @@ _Clique na imagem para expandir_
 
 **Logo**
 
-[![logo](img/prototype/logo.jpg)](img/prototype/logo.jpg)
+[![logo](img/prototype/Logo.jpg)](img/prototype/Logo.jpg)
