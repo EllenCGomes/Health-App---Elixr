@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/sign_up.css" />
+    <link
+      class="logo-tab"
+      rel="shortcut icon"
+      href="../img/LogoTab.ico"
+      type="image/png"
+    />
+    <script
+      src="https://kit.fontawesome.com/de846246dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Elixr</title>
+  </head>
+  <body>
+    <div class="row g-0">
+      <div class="col-md-6 g-0">
+        <div class="logo_leftSide">
+          <div class="logo-message">
+            <div class="logo">
+              <img src="../img/Imagem1.png" alt="Logo" />
+              <h1>Elixr</h1>
+            </div>
+            <p>Your care is our priority</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 g-0">
+        <div class="login_rightSide">
+          <div class="login">
+            <h2>Sign Up</h2>
+            <form class="form row g-0 needs-validation">
+              <div class="mb-3">
+                <label for="fullname" class="form-label sr-only"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullname"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="username" class="form-label sr-only"
+                  >Username</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Username"
+                  required
+                />
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback">
+                  Please provide a valid username
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label sr-only"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email Address"
+                  required
+                />
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback">Please provide a valid email</div>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label sr-only"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                  minlength="8"
+                  required
+                />
+              </div>
+              <div class="terms-user-check d-flex justify-content-between">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    I agree to the
+                    <a href="#" target="_self" class="terms-user"
+                      >Terms of User</a
+                    >
+                  </label>
+                </div>
+              </div>
+              <button type="button" class="sign-in-btn btn">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
