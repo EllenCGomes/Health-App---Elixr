@@ -7,8 +7,5 @@ Development phases: Requirements Analysis, Database Modeling, Prototyping, Docum
 In Progress<img src="img/loading.gif" height="60" align="middle"></img>
 ## Prototyping
 Software: Figma
-[Have a look at it here] (img/Prototyping_Figma.png)
-<p align="center">
-  <img src="img/Prototyping_Figma.png" height="250" align="middle"></img>
-</p>
+[Have a look at it here] (Prototyping.md)
 
