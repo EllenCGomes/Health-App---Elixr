@@ -4,6 +4,6 @@ Project Status:    In Progress<img src="img/loading.gif" height="70" align="midd
 <p align="middle">**Prototyping with Figma**</p>
 <br>
 <p align="center">
-  <img src="img/Prototyping_Figma.png" height="500" align="middle"></img>
+  <img src="img/Prototyping_Figma.png" height="250" align="middle"></img>
 </p>
 
