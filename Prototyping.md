@@ -1,3 +1,2 @@
-<p align="center">
-  <img src="img/Prototyping_Figma.png" height="250" align="middle"></img>
-</p>
+[**BACK**](README.md) :leftwards_arrow_with_hook:
+[![Prototype](img/prototype/Prototyping_Figma.png)](img/prototype/Prototyping_Figma.png)
