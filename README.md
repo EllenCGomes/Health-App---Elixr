@@ -5,7 +5,6 @@ Focused on the theme of health, each student must create an application from scr
 Development phases: Requirements Analysis, Database Modeling, Prototyping, Documentation, Creation, Implementation, Testing and Deployment.
 ## Status:
 In Progress<img src="img/loading.gif" height="60" align="middle"></img>
-## Prototyping
+## [Prototyping](Prototyping.md)
 Software: Figma
-[Have a look at it here] (Prototyping.md)
 
