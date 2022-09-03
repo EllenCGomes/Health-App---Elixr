@@ -12,5 +12,6 @@ Software: Figma
 
 ## Screens:
 
-https://user-images.githubusercontent.com/78104233/188276656-d3ead191-d775-42ee-b23c-8b21596261be.mp4
+
+https://user-images.githubusercontent.com/78104233/188276789-fad4ff0a-c6c6-4f14-af5c-1e8983fb8e4b.mp4
 
