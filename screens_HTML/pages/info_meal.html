@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/info_meal.css" />
+    <link
+      class="logo-tab"
+      rel="shortcut icon"
+      href="../img/LogoTab.ico"
+      type="image/png"
+    />
+    <script
+      src="https://kit.fontawesome.com/de846246dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Elixr</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="menu navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="nav-container container-fluid">
+        <!--offcanvas trigger-->
+        <button
+          class="menu-button navbar-toggler me-1"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <span
+            class="menu-button-icon navbar-toggler-icon"
+            data-bs-target="#offcanvasWithBothOptions"
+          ></span>
+        </button>
+        <!--offcanvas trigger-->
+        <div class="logo navbar-brand me-auto">
+          <img src="../img/Imagem1.png" alt="Logo" />
+          <h1>Elixr</h1>
+        </div>
+        <div class="profile-dropdown">
+          <span class="navbar-text"> Hi, Ellen </span>
+          <div class="navbar-nav" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    class="profile-pic"
+                    src="../img/profile-pic.jpg"
+                    width="38"
+                    alt="profile"
+                  />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="profile.html">Profile</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar-->
+    <!--Offcanvas menu-->
+    <div
+      class="offcanvas offcanvas-start sidebar-nav"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-body p-0">
+        <nav class="menu-offcanvas navbar">
+          <form class="search-bar d-flex">
+            <div class="input-group">
+              <input
+                type="text"
+                class="search-bar-text form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="search-button btn btn-primary"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="fas fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+          <ul class="menu-list navbar-nav py-2">
+            <li>
+              <a href="dashboard.html" target="_self">Home</a>
+            </li>
+            <li>
+              <a href="#" target="_self">Tutorials</a>
+            </li>
+            <li>
+              <a href="#" target="_self">Workouts</a>
+            </li>
+            <li>
+              <a href="nutrition.html" target="_self">Nutrition</a>
+            </li>
+            <li>
+              <a href="#" target="_self">Achievements</a>
+            </li>
+            <li class="divider"><hr class="dropdown-divider" /></li>
+            <li>
+              <a href="#" target="_self">Settings & Privacy</a>
+            </li>
+            <li>
+              <a href="#" target="_self">Help & Support</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--Offcanvas menu-->
+    <main class="mt-5 min-vh-100">
+      <div class="main-container container-fluid">
+        <div class="meal-card">
+          <h2 class="card-title">Info</h2>
+          <div class="meal-info">
+            <button type="button" class="edit-button btn btn-link">Edit</button>
+            <div class="info-card">
+              <ul class="user-list user-label list-group list-group-flush">
+                <li class="list-group-item">Meal</li>
+                <li class="list-group-item">Photo</li>
+                <li class="list-group-item">Protein</li>
+                <li class="list-group-item">Fat</li>
+                <li class="list-group-item">Carbs</li>
+                <li class="list-group-item">Calorie Intake</li>
+              </ul>
+              <ul class="user-list user-info list-group list-group-flush">
+                <li class="first-name list-group-item">Lunch</li>
+                <li class="last-name list-group-item">No</li>
+                <li class="username list-group-item">420g</li>
+                <li class="dob list-group-item">100g</li>
+                <li class="dob list-group-item">49g</li>
+                <li class="gender list-group-item">220g</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
